@@ -1,0 +1,1 @@
+cmd /k ora2pg -c ora2pg.conf
