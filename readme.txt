@@ -1,22 +1,22 @@
-Ïîðÿäîê äåéñòâèé:
-Ýêñïîðò è êîíâåðòàöèÿ:
-1) Çàãðóçèòå è óñòàíîâèòå perl íà ñâîé windows èç (https://strawberryperl.com/)
-2) Óñòàíîâèòå êëèåíò oracle íà ñâîé windows (https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
-   Óñòàíàâëèâàòü òèï runtime (åñëè áàçà äàííûõ íà òîé æå ìàøèíå, ñòàâèòü íå íóæíî)
-3) Çàãðóçèòå ïðîãðàììíîå îáåñïå÷åíèå ora2pg è ðàñïàêóéòå åãî â èçâåñòíîå ìåñòî íà windows èç (https://ora2pg.darold.net/)
-    Ïàïêó c:\ora2pg (ïåðåèìåíîâàòü ora2pg-21.1)
-4) PostgreSQL ïðåäâàðèòåëüíî óñòàíîâëåí íà âàøåì êîìïüþòåðå windows (https://www.enterprisedb.com/node/16#windows)
-5) Ñêîïèðîâàòü ôàéë install.cmd â c:\ora2pg è çàïóñòèòü
-6) Ñêîïèðîâàòü ôàéë ora2pg.conf â c:\ora2pg
-7) Ñêîïèðîâàòü ôàéë export.cmd â c:\ora2pg è çàïóñòèòü
-8) Ñôîðìèðóþòñÿ ïðåîáðàçîâàííûå ôàéëû *_output.sql
+ÐŸÐ¾Ñ€ÑÐ´Ð¾Ðº Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ð¹:
+Ð­ÐºÑÐ¿Ð¾Ñ€Ñ‚ Ð¸ ÐºÐ¾Ð½Ð²ÐµÑ€Ñ‚Ð°Ñ†Ð¸Ñ:
+1) Ð—Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚Ðµ Ð¸ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ðµ perl Ð½Ð° ÑÐ²Ð¾Ð¹ windows Ð¸Ð· (https://strawberryperl.com/)
+2) Ð£ÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ðµ ÐºÐ»Ð¸ÐµÐ½Ñ‚ oracle Ð½Ð° ÑÐ²Ð¾Ð¹ windows (https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
+   Ð£ÑÑ‚Ð°Ð½Ð°Ð²Ð»Ð¸Ð²Ð°Ñ‚ÑŒ Ñ‚Ð¸Ð¿ runtime (ÐµÑÐ»Ð¸ Ð±Ð°Ð·Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð½Ð° Ñ‚Ð¾Ð¹ Ð¶Ðµ Ð¼Ð°ÑˆÐ¸Ð½Ðµ, ÑÑ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð½Ðµ Ð½ÑƒÐ¶Ð½Ð¾)
+3) Ð—Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð½Ð¾Ðµ Ð¾Ð±ÐµÑÐ¿ÐµÑ‡ÐµÐ½Ð¸Ðµ ora2pg Ð¸ Ñ€Ð°ÑÐ¿Ð°ÐºÑƒÐ¹Ñ‚Ðµ ÐµÐ³Ð¾ Ð² Ð¸Ð·Ð²ÐµÑÑ‚Ð½Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾ Ð½Ð° windows Ð¸Ð· (https://ora2pg.darold.net/)
+    ÐŸÐ°Ð¿ÐºÑƒ c:\ora2pg (Ð¿ÐµÑ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ñ‚ÑŒ ora2pg-21.1)
+4) PostgreSQL Ð¿Ñ€ÐµÐ´Ð²Ð°Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½ Ð½Ð° Ð²Ð°ÑˆÐµÐ¼ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ðµ windows (https://www.enterprisedb.com/node/16#windows)
+5) Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» install.cmd Ð² c:\ora2pg Ð¸ Ð·Ð°Ð¿ÑƒÑÑ‚Ð¸Ñ‚ÑŒ
+6) Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» ora2pg.conf Ð² c:\ora2pg
+7) Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» export.cmd Ð² c:\ora2pg Ð¸ Ð·Ð°Ð¿ÑƒÑÑ‚Ð¸Ñ‚ÑŒ
+8) Ð¡Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€ÑƒÑŽÑ‚ÑÑ Ð¿Ñ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ñ„Ð°Ð¹Ð»Ñ‹ *_output.sql
 
-Èìïîðò:
-1) Ñîçäàòü òåñòîâóþ áàçó postgreSQL - 1_create_database_and_user.sql
-2) Ñîçäàòü òåñòîâîãî ïîëüçîâàòåëÿ - 2_create_user.sql
-3) Çàãðóçèòü *_output.sql ÷åðåç ïðèëîæåíèå DBeaver èëè pgAdmin
+Ð˜Ð¼Ð¿Ð¾Ñ€Ñ‚:
+1) Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ‚ÐµÑÑ‚Ð¾Ð²ÑƒÑŽ Ð±Ð°Ð·Ñƒ postgreSQL - 1_create_database_and_user.sql
+2) Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ‚ÐµÑÑ‚Ð¾Ð²Ð¾Ð³Ð¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ - 2_create_user.sql
+3) Ð—Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚ÑŒ *_output.sql Ñ‡ÐµÑ€ÐµÐ· Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ DBeaver Ð¸Ð»Ð¸ pgAdmin
 
-OracleXE18->PostgreSQL13 ì³ãðàö³ÿ ³ åêñïîðò äàíèõ çà äîïîìîãîþ óòèë³òè ora2pg
+OracleXE18->PostgreSQL13 Ð¼Ñ–Ð³Ñ€Ð°Ñ†Ñ–Ñ Ñ– ÐµÐºÑÐ¿Ð¾Ñ€Ñ‚ Ð´Ð°Ð½Ð¸Ñ… Ð·Ð° Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾ÑŽ ÑƒÑ‚Ð¸Ð»Ñ–Ñ‚Ð¸ ora2pg
 (table,insert,package,sequence,trigger,function,procedure,type)
 
 OracleXE18->PostgreSQL13 migration and export of data using the ora2pg utility
